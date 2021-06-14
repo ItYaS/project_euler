@@ -9,7 +9,7 @@ find the sum of the even-valued terms.
 """
 
 
-def get_even_fibonacci_numbers(max_limit):
+def even_fibonacci_numbers(max_limit):
     result_list = list()
     fibonacci_nums_list = [1, 2]
 
@@ -27,5 +27,4 @@ def get_even_fibonacci_numbers(max_limit):
 
 
 if __name__ == '__main__':
-    result = get_even_fibonacci_numbers(4000000)
-    print(result)  # output: 4613732
+    print(even_fibonacci_numbers(4000000))  # output: 4613732
