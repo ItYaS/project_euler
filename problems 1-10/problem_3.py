@@ -5,7 +5,7 @@ What is the largest prime factor of the number 600851475143 ?
 """
 
 
-def get_largest_prime_factor(num):
+def largest_prime_factor(num):
     i = 2
 
     while i <= num // 2:
@@ -17,5 +17,4 @@ def get_largest_prime_factor(num):
 
 
 if __name__ == '__main__':
-    result = get_largest_prime_factor(600851475143)
-    print(result)  # output: 6857
+    print(largest_prime_factor(600851475143))  # output: 6857
